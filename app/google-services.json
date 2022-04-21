@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "385779175321",
+    "project_id": "socialnetwork-5b8ab",
+    "storage_bucket": "socialnetwork-5b8ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385779175321:android:1a251132f217defe06cd08",
+        "android_client_info": {
+          "package_name": "com.example.socialnetwork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385779175321-onjahpipec00rh5k76cion9pvbon1as9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8CqeRCLHeEDBgiw7cdSgaQNbGUatkCCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385779175321-onjahpipec00rh5k76cion9pvbon1as9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
