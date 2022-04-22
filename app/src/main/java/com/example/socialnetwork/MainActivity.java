@@ -403,6 +403,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this, "Profile", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.nav_home:
+                SendUserToMainActivity();
                 Toast.makeText(this, "Home", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.nav_friends:
@@ -426,6 +427,11 @@ public class MainActivity extends AppCompatActivity {
                 SendUserToLoginActivity();
                 break;
         }
+    }
+
+    private void SendUserToMainActivity() {
+        Intent mainActivity = new Intent(MainActivity.this, MainActivity.class);
+        startActivity(mainActivity);
     }
 
     private void SendUserToFriendsActivity()
