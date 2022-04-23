@@ -1,5 +1,5 @@
 package com.example.socialnetwork;
-//modal java file for find friends
+
 
 public class FindFriends
 {
