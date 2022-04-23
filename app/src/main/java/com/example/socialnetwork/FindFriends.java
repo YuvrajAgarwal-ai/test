@@ -1,4 +1,5 @@
 package com.example.socialnetwork;
+//modal java file for find friends
 
 public class FindFriends
 {
@@ -14,6 +15,7 @@ public class FindFriends
         this.fullname = fullname;
         this.status = status;
     }
+
 
     public String getProfileimage() {
         return profileimage;
